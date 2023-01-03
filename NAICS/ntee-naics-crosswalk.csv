@@ -1,0 +1,649 @@
+NTEECC,NAME,ACTIV1,NAICS,CNAICS,SIC,CMTS_SIC,SICLIST,OK
+A,"Arts, Culture, and Humanities",,,,,,,Y
+A01,Alliance/Advocacy/Advocacy Org,,813319,813310,8399,,,Y
+A02,Management & Technical Assista,125,541618,541610,8748,,,Y
+A03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+A05,Research Institutes,124,541720,541720,8733,,,Y
+A11,Single Organization Support,206,813219,813210,8399,,,Y
+A12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+A19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+A20,"Arts, Cultural Organizations -",119,710000,710000,8699,"code for """"mem. orgs. n.e.c.""""",,Y
+A23,"Cultural, Ethnic Awareness",119,710000,710000,8399,"code for """"soc. change assoc.""""",,Y
+A25,Arts Education,119,611610,611610,8299,,,Y
+A26,Arts Council/Agency,119,710000,710000,8699,,,Y
+A30,"Media, Communications Organiza",,510000,510000,8699,"code for """"mem. orgs. n.e.c.""""",,Y
+A31,"Film, Video",122,512110,512110,7812,,,Y
+A32,Television,121,513120,51312,4833,,,Y
+A33,"Printing, Publishing",120,511100,511100,2711,,"27,112,721",Y
+A34,Radio,121,513110,513110,4832,,,Y
+A40,Visual Arts Organizations,91,710000,710000,8412,"code for """"museums""""",,Y
+A50,"Museum, Museum Activities",60,712110,712110,8412,,,Y
+A51,Art Museums,60,712110,712110,8412,,,Y
+A52,Children's Museums,60,712110,712110,8412,,,Y
+A54,History Museums,60,712110,712110,8412,,,Y
+A56,"Natural History, Natural Scien",60,712110,712110,8412,,,Y
+A57,Science and Technology Museums,60,712110,712110,8412,,,Y
+A60,Performing Arts Organizations,90,711100,711100,5812,,,
+A61,Performing Arts Centers,90,711100,711100,7922,,,Y
+A62,Dance,90,711120,711120,7922,,,Y
+A63,Ballet,90,711120,711120,7922,,,Y
+A65,Theater,88,711110,711110,7922,,,Y
+A68,Music,90,711130,711130,7929,,,Y
+A69,Symphony Orchestras,90,711130,711130,7929,,,Y
+A6A,Opera,90,711130,711130,7929,,,Y
+A6B,"Singing, Choral",89,711130,711130,7929,,,Y
+A6C,"Music Groups, Bands, Ensembles",90,711130,711130,7929,,,Y
+A6E,Performing Arts Schools,90,611610,611610,8299,,,Y
+A70,Humanities Organizations,123,710000,710000,8699,"code for """"mem. org. n.e.c.""""",,Y
+A80,"Historical Societies, Related",62,712120,712120,8412,,,Y
+A84,Commemorative Events,62,712120,712120,8412,,,Y
+A90,Arts Service Organizations and,119,813219,813210,8399,,,Y
+A99,"Arts, Culture, and Humanities",119,710000,710000,8699,"code for """"mem. org. n.e.c.""""",,Y
+B,Education,,,,,,,Y
+B01,Alliance/Advocacy Organization,540,813319,813310,8399,,,Y
+B02,Management & Technical Assista,125,541618,541610,8748,,,Y
+B03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+B05,Research Institutes,124,541720,541720,8733,,,Y
+B11,Single Organization Support,206,813219,813210,8399,,,Y
+B12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+B19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+B20,"Elementary, Secondary Educatio",30,611110,611110,8211,,,Y
+B21,"Kindergarten, Preschool, Nurse",30,611110,611110,8211,,,Y
+B24,"Primary, Elementary Schools",30,611110,611110,8211,,,Y
+B25,"Secondary, High School",30,611110,611110,8211,,,Y
+B28,Specialized Education Institut,30,611699,611690,8299,,,Y
+B30,"Vocational, Technical Schools",30,611510,611510,8243,,,
+B40,Higher Education Institutions,30,611310,611310,8221,,,Y
+B41,Community or Junior College,30,611210,611210,8222,,,Y
+B42,Undergraduate College (4-year),30,611310,611310,8221,,,Y
+B43,University or Technological In,30,611310,611310,8221,,,Y
+B50,"Graduate, Professional Schools",30,611310,611310,8221,,,Y
+B60,"Adult, Continuing Education",30,611699,611690,8299,,,Y
+B70,Libraries,61,514120,514120,8231,,,Y
+B80,"Student Services, Organization",37,611710,611710,8299,,,Y
+B82,"Scholarships, Student Financia",39,813410,813410,8641,,,Y
+B83,"Student Sororities, Fraterniti",36,813410,813410,8641,,,Y
+B84,Alumni Associations,34,813410,813410,8641,,,Y
+B90,Educational Services and Schoo,42,611710,611710,8299,,"82,998,748",Y
+B92,"Remedial Reading, Reading Enco",59,611710,611710,8299,,,Y
+B94,Parent/Teacher Group,35,813410,813410,8641,,,Y
+B99,Education N.E.C.,33,611000,611000,829,,,Y
+C,"Environmental Quality, Protect",,,,,,,Y
+C01,Alliance/Advocacy Organization,529,813319,813310,8399,,,Y
+C02,Management & Technical Assista,125,541618,541610,8748,,,Y
+C03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+C05,Research Institutes,124,541720,541720,8733,,,Y
+C11,Single Organization Support,206,813219,813210,8399,,,Y
+C12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+C19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+C20,Pollution Abatement and Contro,351,813312,813310,8399,,,Y
+C27,Recycling Programs,,813312,813310,8399,,,Y
+C30,Natural Resources Conservation,350,813312,813310,8399,,,Y
+C32,"Water Resource, Wetlands Conse",350,813312,813310,8399,,,Y
+C34,Land Resources Conservation,350,813312,813310,8399,,,Y
+C35,Energy Resources Conservation,350,813312,813310,8399,,,Y
+C36,Forest Conservation,350,813312,813310,8399,,,Y
+C40,"Botanical, Horticultural, and",233,712130,712130,8422,,,Y
+C41,"Botanical Gardens, Arboreta an",379,712130,712130,8422,,,Y
+C42,"Garden Club, Horticultural Pro",356,813410,813410,8641,,,Y
+C50,Environmental Beautification a,354,813312,813310,8399,,,Y
+C60,Environmental Education and Ou,379,712190,712190,7999,,,Y
+C99,"Environmental Quality, Protect",379,813312,813310,8399,,,Y
+D,Animal-Related,,,,,,,Y
+D01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+D02,Management & Technical Assista,125,541618,541610,8748,,,Y
+D03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+D05,Research Institutes,124,541720,541720,8733,,,Y
+D11,Single Organization Support,206,813219,813210,8399,,,Y
+D12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+D19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+D20,Animal Protection and Welfare,913,813312,813310,8399,,,Y
+D30,"Wildlife Preservation, Protect",355,813312,813310,8399,,,Y
+D31,Protection of Endangered Speci,355,813312,813310,8399,,,Y
+D32,"Bird Sanctuary, Preserve",355,712190,712190,8422,,,Y
+D33,Fisheries Resources,355,813312,813310,8399,,,Y
+D34,"Wildlife Sanctuary, Refuge",355,712190,712190,8422,,,Y
+D40,Veterinary Services,,541940,541940,741,,"741,742",Y
+D50,"Zoo, Zoological Society",60,712130,712130,8422,,,Y
+D60,Other Services - Specialty Ani,284,812910,812910,752,,,Y
+D61,"Animal Training, Behavior",,812910,812910,752,,,Y
+D99,Animal-Related N.E.C.,,813312,813310,8399,,,Y
+E,Health - General and Rehabilit,,,,,,,Y
+E01,Alliance/Advocacy Organization,531,813319,813310,8399,,,Y
+E02,Management & Technical Assista,125,541618,541610,8748,,,Y
+E03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+E05,Research Institutes,124,541720,541720,8733,,,Y
+E11,Single Organization Support,206,813219,813210,8399,,,Y
+E12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+E19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+E20,Hospitals and Related Primary,150,622110,622110,8062,,"80,628,069",Y
+E21,Community Health Systems,150,622110,622110,8062,,,Y
+E22,"Hospital, General",150,622110,622110,8062,,,Y
+E24,"Hospital, Specialty",150,622310,622310,8069,,,Y
+E30,"Health Treatment Facilities, P",154,621498,621490,8093,,,Y
+E31,Group Health Practice (Health,154,621491,621490,8011,,,Y
+E32,"Ambulatory Health Center, Comm",154,621498,621490,8093,,,Y
+E40,Reproductive Health Care Facil,179,621410,621410,8093,,,
+E42,Family Planning Centers,564,621410,621410,8093,,,Y
+E50,Rehabilitative Medical Service,160,621340,621340,8049,,,Y
+E60,Health Support Services,179,621999,621990,8099,,,Y
+E61,Blood Supply Related,156,621991,621990,8099,,,Y
+E62,"Ambulance, Emergency Medical T",158,621910,621910,4119,,"41,194,522",Y
+E65,Organ and Tissue Bank,,621991,,8099,,,Y
+E70,Public Health Program (Include,165,621999,621990,8099,,,Y
+E80,"Health, General and Financing",163,524114,524110,6321,,"63,216,324",Y
+E86,Patient Services - Entertainme,179,621999,621990,8099,,,Y
+E90,Nursing Services (General),179,623110,623110,8051,,,
+E91,"Nursing, Convalescent Faciliti",152,623110,623110,8051,,,Y
+E92,Home Health Care,179,621610,621610,8082,,,Y
+E99,Health - General and Rehabilit,179,621999,621990,8099,,,Y
+F,"Mental Health, Crisis Interven",,,,,,,Y
+F01,Alliance/Advocacy Organization,536,813319,813310,8399,,,Y
+F02,Management & Technical Assista,125,541618,541610,8748,,,Y
+F03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+F05,Research Institutes,124,541720,541720,8733,,,Y
+F11,Single Organization Support,206,813219,813210,8399,,,Y
+F12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+F19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+F20,"Alcohol, Drug and Substance Ab",573,621420,621420,8093,,,Y
+F21,"Alcohol, Drug Abuse, Preventio",573,621420,621420,8093,,,Y
+F22,"Alcohol, Drug Abuse, Treatment",573,621420,621420,8093,,,Y
+F30,Mental Health Treatment - Mult,166,621420,621420,8093,,,Y
+F31,"Psychiatric, Mental Health Hos",166,622210,622210,8063,,,Y
+F32,Community Mental Health Center,166,621420,621420,8093,,,Y
+F33,"Group Home, Residential Treatm",166,623220,623220,8361,,,Y
+F40,"Hot Line, Crisis Intervention",166,624190,624190,8322,,,Y
+F42,Rape Victim Services,166,624190,624190,8322,,,Y
+F50,Addictive Disorders N.E.C.,166,621498,621490,8093,,,Y
+F52,Smoking Addiction,573,621498,621490,8093,,,Y
+F53,"Eating Disorder, Addiction",166,621498,621490,8093,,,Y
+F54,Gambling Addiction,166,621498,621490,8093,,,Y
+F60,"Counseling, Support Groups",166,621498,621490,8093,,,Y
+F70,Mental Health Disorders,166,621498,621490,8093,,,Y
+F80,"Mental Health Association, Mul",166,813920,813920,8621,,,Y
+F99,"Mental Health, Crisis Interven",166,621498,621490,8093,,,Y
+G,"Diseases, Disorders, Medical D",,,,,,,Y
+G01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+G02,Management & Technical Assista,125,541618,541610,8748,,,Y
+G03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+G05,Research Institutes,124,541720,541720,8733,,,Y
+G11,Single Organization Support,206,813219,813210,8399,,,Y
+G12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+G19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+G20,Birth Defects and Genetic Dise,,813212,813210,8399,,,Y
+G25,Down Syndrome,,813212,813210,8399,,,Y
+G30,Cancer,,813212,813210,8399,,,Y
+G40,Diseases of Specific Organs,,813212,813210,8399,,,Y
+G41,"Eye Diseases, Blindness and Vi",,813212,813210,8399,,,Y
+G42,Ear and Throat Diseases,,813212,813210,8399,,,Y
+G43,Heart and Circulatory System D,,813212,813210,8399,,,Y
+G44,Kidney Disease,,813212,813210,8399,,,Y
+G45,Lung Disease,,813212,813210,8399,,,Y
+G48,Brain Disorders,,813212,813210,8399,,,Y
+G50,"Nerve, Muscle and Bone Disease",,813212,813210,8399,,,Y
+G51,Arthritis,,813212,813210,8399,,,Y
+G54,Epilepsy,,813212,813210,8399,,,Y
+G60,Allergy Related Diseases,,813212,813210,8399,,,Y
+G61,Asthma,,813212,813210,8399,,,Y
+G70,"Digestive Diseases, Disorders",,813212,813210,8399,,,Y
+G80,Specifically Named Diseases,,813212,813210,8399,,,Y
+G81,AIDS,,813212,813210,8399,,,Y
+G83,Alzheimer's Disease,,813212,813210,8399,,,Y
+G84,Autism,,813212,813210,8399,,,Y
+G90,Medical Disciplines,,813212,813210,8399,,,Y
+G92,"Biomedicine, Bioengineering",,813212,813210,8399,,,Y
+G94,Geriatrics,,813212,813210,8399,,,Y
+G96,"Neurology, Neuroscience",,813212,813210,8399,,,Y
+G98,Pediatrics,,813212,813210,8399,,,Y
+G99,"Diseases, Disorders, Medical D",,813212,813210,8399,,,Y
+G9B,Surgery,,813212,813210,8399,,,Y
+H,Medical Research,,,,,,,Y
+H01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+H02,Management & Technical Assista,125,541618,541610,8748,,,Y
+H03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+H05,Research Institutes,124,541720,541720,8733,,,Y
+H11,Single Organization Support,206,813219,813210,8399,,,Y
+H12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+H19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+H20,"Birth Defects, Genetic Disease",161,541710,541710,8733,,,Y
+H25,Down Syndrome Research,161,541710,541710,8733,,,Y
+H30,Cancer Research,161,541710,541710,8733,,,Y
+H40,Specific Organ Research,161,541710,541710,8733,,,Y
+H41,Eye Research,161,541710,541710,8733,,,Y
+H42,Ear and Throat Research,161,541710,541710,8733,,,Y
+H43,"Heart, Circulatory Research",161,541710,541710,8733,,,Y
+H44,Kidney Research,161,541710,541710,8733,,,Y
+H45,Lung Research,161,541710,541710,8733,,,Y
+H48,Brain Disorders Research,161,541710,541710,8733,,,Y
+H50,"Nerve, Muscle, Bone Research",161,541710,541710,8733,,,Y
+H51,Arthritis Research,161,541710,541710,8733,,,Y
+H54,Epilepsy Research,161,541710,541710,8733,,,Y
+H60,Allergy-Related Disease Resear,161,541710,541710,8733,,,Y
+H61,Asthma Research,161,541710,541710,8733,,,Y
+H70,"Digestive Disease, Disorder Re",161,541710,541710,8733,,,Y
+H80,Specifically Named Diseases Re,161,541710,541710,8733,,,Y
+H81,AIDS Research,161,541710,541710,8733,,,Y
+H83,Alzheimer's Disease Research,161,541710,541710,8733,,,Y
+H84,Autism Research,161,541710,541710,8733,,,Y
+H90,Medical Specialty Research,161,541710,541710,8733,,,Y
+H92,"Biomedicine, Bioengineering Re",161,541710,541710,8733,,,Y
+H94,Geriatrics Research,161,541710,541710,8733,,,Y
+H96,"Neurology, Neuroscience Resear",161,541710,541710,8733,,,Y
+H98,Pediatrics Research,161,541710,541710,8733,,,Y
+H99,Medical Research N.E.C.,161,541710,541710,8733,,,Y
+H9B,Surgery Research,161,541710,541710,8733,,,Y
+I,"Crime, Legal Related",,,,,,,Y
+I01,Alliance/Advocacy Organization,510,813319,813310,8399,,,Y
+I02,Management & Technical Assista,125,541618,541610,8748,,,Y
+I03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+I05,Research Institutes,124,541720,541720,8733,,,Y
+I11,Single Organization Support,206,813219,813210,8399,,,Y
+I12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+I19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+I20,Crime Prevention N.E.C.,406,541199,541190,7389,,,Y
+I21,Delinquency Prevention,328,541199,541190,7389,,,Y
+I23,Drunk Driving Related,573,813319,813310,8399,,,Y
+I30,Correctional Facilities N.E.C.,,541199,541190,7389,,,Y
+I31,"Transitional Care, Half-Way Ho",,623990,623990,8361,,,Y
+I40,Rehabilitation Services for Of,463,541199,541190,7389,,,Y
+I43,Services to Prisoners and Fami,572,541199,541190,7389,,,Y
+I44,Prison Alternatives,,541199,541190,7389,,,Y
+I50,"Administration of Justice, Cou",,541199,541190,7389,,,Y
+I51,"Dispute Resolution, Mediation",,624190,624190,8322,,,Y
+I60,Law Enforcement Agencies (Poli,,541199,541190,7389,,,Y
+I70,"Protection Against, Prevention",,813319,813310,8399,,,Y
+I71,"Spouse Abuse, Prevention of",,813319,813310,8399,,,Y
+I72,"Child Abuse, Prevention of",327,813319,813310,8399,,,Y
+I73,"Sexual Abuse, Prevention of",,813319,813310,8399,,,Y
+I80,Legal Services,461,541199,541190,7389,,,Y
+I83,"Public Interest Law, Litigatio",460,541199,541190,7389,,,Y
+I99,"Crime, Legal Related N.E.C.",,541199,541190,7389,,,Y
+J,"Employment, Job related",,,,,,,Y
+J01,Alliance/Advocacy Organization,523,813319,813310,8399,,,Y
+J02,Management & Technical Assista,125,541618,541610,8748,,,Y
+J03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+J05,Research Institutes,124,541720,541720,8733,,,Y
+J11,Single Organization Support,206,813219,813210,8399,,,Y
+J12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+J19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+J20,Employment Procurement Assista,566,561310,561310,7361,,,Y
+J21,"Vocational Counseling, Guidanc",566,624310,624310,8331,,,Y
+J22,Vocational Training,126,624310,624310,8331,,,Y
+J30,Vocational Rehabilitation,574,624310,624310,8331,,,Y
+J32,Goodwill Industries,574,624310,624310,8331,,,Y
+J33,Sheltered Remunerative Employm,574,624310,624310,8331,,,Y
+J40,"Labor Unions, Organizations",261,813930,813930,8631,,,Y
+J99,"Employment, Job Related N.E.C.",,561310,561310,7361,,,Y
+K,"Food, Agriculture, and Nutriti",,,,,,,Y
+K01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+K02,Management & Technical Assista,125,541618,541610,8748,,,Y
+K03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+K05,Research Institutes,124,541720,541720,8733,,,Y
+K11,Single Organization Support,206,813219,813210,8399,,,Y
+K12,Fund Raising and/or Fund Distr,235,813219,813210,8399,,,Y
+K19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+K20,Agricultural Programs,230,115000,115000,8699,"code for """"mem. orgs. incl. farm bureaus & granges",,Y
+K25,Farmland Preservation,353,115110,115110,711,,,
+K26,"Livestock Breeding, Developmen",236,115210,115210,751,,,Y
+K28,"Farm Bureau, Grange",231,813910,813910,8699,,,Y
+K30,"Food Service, Free Food Distri",560,624210,624210,8322,,,Y
+K31,"Food Banks, Food Pantries",560,624210,624210,8322,,,Y
+K34,Congregate Meals,153,624210,624210,8322,,,Y
+K35,"Eatery, Agency, Organization S",560,624210,624210,8322,,,Y
+K36,Meals on Wheels,153,624210,624210,8322,,,Y
+K40,Nutrition Programs,,624190,624190,8322,,,Y
+K50,Home Economics,,624190,624190,8322,,,Y
+K99,"Food, Agriculture, and Nutriti",249,115000,115000,8322,,,Y
+L,"Housing, Shelter",,,,,,,Y
+L01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+L02,Management & Technical Assista,125,541618,541610,8748,,,Y
+L03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+L05,Research Institutes,124,541720,541720,8733,,,Y
+L11,Single Organization Support,206,813219,813210,8399,,,Y
+L12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+L19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+L20,"Housing Development, Construct",380,624229,624220,8322,,,Y
+L21,Public Housing Facilities,380,624229,624220,8322,,,Y
+L22,Senior Citizens' Housing/Reti,326,623312,623310,8361,,,Y
+L25,Housing Rehabilitation,380,624229,624220,8322,,,Y
+L30,Housing Search Assistance,398,624229,624220,8322,,,Y
+L40,Low-Cost Temporary Housing,380,721199,721190,7011,,,Y
+L41,"Homeless, Temporary Shelter Fo",399,624221,624220,8322,,,Y
+L50,"Housing Owners, Renters Organi",401,813990,813990,8641,,,Y
+L80,Housing Support Services -- Ot,398,624229,624220,8322,,,Y
+L81,Home Improvement and Repairs,399,624229,624220,8322,,,Y
+L82,Housing Expense Reduction Supp,399,624229,624220,8322,,,Y
+L99,"Housing, Shelter N.E.C.",399,624220,624220,8322,,,Y
+M,"Public Safety, Disaster Prepar",,,,,,,Y
+M01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+M02,Management & Technical Assista,125,541618,541610,8748,,,Y
+M03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+M05,Research Institutes,124,541720,541720,8733,,,Y
+M11,Single Organization Support,206,813219,813210,8399,,,Y
+M12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+M19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+M20,Disaster Preparedness and Reli,902,624230,624230,8322,,,Y
+M23,"Search and Rescue Squads, Serv",,624230,624230,8322,,,Y
+M24,"Fire Prevention, Protection, C",407,624230,624230,8322,,,Y
+M40,Safety Education,,624230,624230,8322,,,Y
+M41,"First Aid Training, Services",,624230,624230,8322,,,Y
+M42,Automotive Safety,,624230,624230,8322,,,Y
+M99,"Public Safety, Disaster Prepar",,624230,624230,8322,,,Y
+N,"Recreation, Sports, Leisure, A",,,,,,,Y
+N01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+N02,Management & Technical Assista,125,541618,541610,8748,,,Y
+N03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+N05,Research Institutes,124,541720,541720,8733,,,Y
+N11,Single Organization Support,206,813219,813210,8399,,,Y
+N12,Fund Raising and/or Fund Distr,301,813219,813210,8399,,,Y
+N19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+N20,Recreational and Sporting Camp,325,721214,721210,7032,,,Y
+N30,Physical Fitness and Community,297,713940,713940,7991,,,Y
+N31,Community Recreational Centers,296,713940,713940,7999,,,Y
+N32,Parks and Playgrounds,297,712190,712190,7999,,,Y
+N40,"Sports Training Facilities, Ag",38,611620,611620,7999,,,Y
+N50,"Recreational, Pleasure, or Soc",280,713990,713990,7999,,,Y
+N52,"Fairs, County and Other",65,713990,713990,7999,,,Y
+N60,"Amateur Sports Clubs, Leagues,",288,713990,713990,7999,,,Y
+N61,"Fishing, Hunting Clubs",286,713990,713990,7999,,,Y
+N62,Basketball,288,713990,713990,7999,,,Y
+N63,"Baseball, Softball",288,713990,713990,7999,,,Y
+N64,"Soccer Clubs, Leagues",288,713990,713990,7999,,,Y
+N65,"Football Clubs, Leagues",288,713990,713990,7999,,,Y
+N66,"Tennis, Racquet Sports Clubs,",287,713990,713990,7999,,,Y
+N67,"Swimming, Water Recreation",287,713990,713990,7999,,,Y
+N68,Winter Sports (Snow and Ice),288,713990,713990,7999,,,Y
+N69,"Equestrian, Riding",288,713990,713990,7999,,,Y
+N6A,Golf,288,713990,713990,7999,,,Y
+N70,Amateur Sports Competitions,317,711211,711211,7941,,,Y
+N71,Olympics Committees and Relate,317,711211,711211,7941,,,Y
+N72,Special Olympics,317,711211,711211,7941,,,Y
+N80,Professional Athletic Leagues,210,711211,711211,7941,,,Y
+N99,"Recreation, Sports, Leisure, A",282,713990,713990,7999,,,Y
+O,Youth Development,,,,,,,Y
+O01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+O02,Management & Technical Assista,125,541618,541610,8748,,,Y
+O03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+O05,Research Institutes,124,541720,541720,8733,,,Y
+O11,Single Organization Support,206,813219,813210,8399,,,Y
+O12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+O19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+O20,"Youth Centers, Clubs, Multipur",296,624110,624110,8322,,,Y
+O21,Boys Clubs,321,624110,624110,8322,,,Y
+O22,Girls Clubs,321,624110,624110,8322,,,Y
+O23,Boys and Girls Clubs (Combined,321,624110,624110,8322,,,Y
+O30,"Adult, Child Matching Programs",349,624110,624110,8322,,,Y
+O31,"Big Brothers, Big Sisters",349,624110,624110,8322,,,Y
+O40,Scouting Organizations,320,813410,813410,8641,,,Y
+O41,Boy Scouts of America,320,813410,813410,8641,,,Y
+O42,Girl Scouts of the U.S.A.,320,813410,813410,8641,,,Y
+O43,Camp Fire,320,813410,813410,8641,,,Y
+O50,"Youth Development Programs, Ot",349,813410,813410,8641,,,Y
+O51,Youth Community Service Clubs,323,813410,813410,8641,,,Y
+O52,Youth Development - Agricultur,322,813410,813410,8641,,,Y
+O53,Youth Development - Business,45,813410,813410,8641,,,Y
+O54,Youth Development - Citizenshi,,813410,813410,8641,,,Y
+O55,Youth Development - Religious,349,813410,813410,8641,,,Y
+O99,Youth Development N.E.C.,349,624110,624110,8322,,,Y
+P,Human Services - Multipurpose,,,,,,,Y
+P01,Alliance/Advocacy Organization,532,813319,813310,8399,,,Y
+P02,Management & Technical Assista,125,541618,541610,8748,,,Y
+P03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+P05,Research Institutes,124,541720,541720,8733,,,Y
+P11,Single Organization Support,206,813219,813210,8399,,,Y
+P12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+P19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+P20,Human Service Organizations -,560,624000,624000,8322,,,Y
+P21,American Red Cross,560,624000,624000,8322,,,Y
+P22,Urban League,560,624000,624000,8322,,,Y
+P24,Salvation Army,560,624000,624000,8322,,,Y
+P26,Volunteers of America,560,624000,624000,8322,,,Y
+P27,Young Men's or Women's Associ,324,624100,624100,8322,,,Y
+P28,"Neighborhood Centers, Settleme",296,624190,624190,8322,,,Y
+P29,Thrift Shops,560,624190,624190,8322,,,Y
+P30,"Children's, Youth Services",,624110,624110,8322,,,Y
+P31,Adoption,,624110,624110,8322,,,Y
+P32,Foster Care,,624110,624110,8322,,,Y
+P33,Child Day Care,574,624410,624410,8351,,,Y
+P40,Family Services,,624100,624100,8322,,,Y
+P42,"Single Parent Agencies, Servic",,624100,624100,8322,,,Y
+P43,"Family Violence Shelters, Serv",,624221,624220,8322,,,Y
+P44,"Homemaker, Home Health Aide",,624190,624190,8322,,,Y
+P45,"Family Services, Adolescent Pa",,624190,624190,8322,,,Y
+P46,Family Counseling,563,624190,624190,8322,,,Y
+P50,Personal Social Services,560,624190,624190,8322,,,Y
+P51,"Financial Counseling, Money Ma",565,624190,624190,8322,,,Y
+P52,"Transportation, Free or Subsid",560,624190,624190,8322,,,Y
+P58,Gift Distribution,560,624190,624190,8322,,,Y
+P60,"Emergency Assistance (Food, Cl",560,624230,624230,8322,,,Y
+P61,Travelers' Aid,560,624190,624190,8322,,,Y
+P62,Victims' Services,,624190,624190,8322,,,Y
+P70,"Residential, Custodial Care",326,623990,623990,8361,,,Y
+P72,Half-Way House (Short-Term Res,,623990,623990,8361,,,Y
+P73,Group Home (Long Term),,623990,623990,8361,,,Y
+P74,Hospice,,623110,623110,8051,,,Y
+P75,Senior Continuing Care Communi,153,623311,623310,8059,,,Y
+P80,Services to Promote the Indepe,160,624120,624120,8322,,,Y
+P81,"Senior Centers, Services",,624120,624120,8322,,,Y
+P82,Developmentally Disabled Cente,160,624120,624120,8322,,,Y
+P84,"Ethnic, Immigrant Centers, Ser",,624120,624120,8322,,,Y
+P85,"Homeless Persons Centers, Serv",560,624120,624120,8322,,,Y
+P86,Blind and Visually Impaired Ce,160,624120,624120,8322,,,Y
+P87,Deaf and Hearing Impaired Cent,160,624120,624120,8322,,,Y
+P99,Human Services - Multipurpose,,624000,624000,8322,,,Y
+Q01,Alliance/Advocacy Organization,512,813319,813310,8399,,,Y
+Q02,Management & Technical Assista,125,541618,541610,8748,,,Y
+Q03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+Q05,Research Institutes,124,541720,541720,8733,,,Y
+Q11,Single Organization Support,206,813219,813210,8399,,,Y
+Q12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+Q19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+Q20,Promotion of International Und,910,611710,611710,8299,,,Y
+Q21,International Cultural Exchang,93,611710,611710,8299,,,Y
+Q22,International Student Exchange,44,611710,611710,8299,,,Y
+Q23,"International Exchanges, N.E.C",910,611710,611710,8299,,,Y
+Q30,"International Development, Rel",910,813311,813310,8399,,,Y
+Q31,International Agricultural Dev,910,813311,813310,8399,,,Y
+Q32,International Economic Develop,910,813311,813310,8399,,,Y
+Q33,International Relief,910,813311,813310,8399,,,Y
+Q40,International Peace and Securi,910,813319,813310,8399,,,Y
+Q41,"Arms Control, Peace Organizati",910,813319,813310,8399,,,Y
+Q42,United Nations Association,910,813319,813310,8399,,,Y
+Q43,"National Security, Domestic",910,813319,813310,8399,,,Y
+Q70,International Human Rights,430,813311,813310,8399,,,Y
+Q71,"International Migration, Refug",430,813311,813310,8399,,,Y
+Q99,"International, Foreign Affairs",299,813311,813310,8399,,,Y
+R01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+R02,Management & Technical Assista,125,541618,541610,8748,,,Y
+R03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+R05,Research Institutes,124,541720,541720,8733,,,Y
+R11,Single Organization Support,206,813219,813210,8399,,,Y
+R12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+R19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+R20,"Civil Rights, Advocacy for Spe",430,813311,813310,8399,,,Y
+R22,Minority Rights,430,813311,813310,8399,,,Y
+R23,Disabled Persons' Rights,430,813311,813310,8399,,,Y
+R24,Women's Rights,430,813311,813310,8399,,,Y
+R25,Seniors' Rights,430,813311,813310,8399,,,Y
+R26,"Lesbian, Gay Rights",430,813311,813310,8399,,,Y
+R30,"Intergroup, Race Relations",430,813311,813310,8399,,,Y
+R40,"Voter Education, Registration",481,813311,813310,8399,,,Y
+R60,Civil Liberties Advocacy,430,813311,813310,8399,,,Y
+R61,Reproductive Rights,430,813311,813310,8399,,,Y
+R62,Right to Life,430,813311,813310,8399,,,Y
+R63,"Censorship, Freedom of Speech",430,813311,813310,8399,,,Y
+R67,"Right to Die, Euthanasia Issue",430,813311,813310,8399,,,Y
+R99,"Civil Rights, Social Action, A",430,813311,813310,8399,,,Y
+S01,Alliance/Advocacy Organization,524,813319,813310,8399,,,Y
+S02,Management & Technical Assista,125,541618,541610,8748,,,Y
+S03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+S05,Research Institutes,124,541720,541720,8733,,,Y
+S11,Single Organization Support,206,813219,813210,8399,,,Y
+S12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+S19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+S20,"Community, Neighborhood Develo",400,813410,813410,8641,,,Y
+S21,Community Coalitions,400,813410,813410,8641,,,Y
+S22,"Neighborhood, Block Associatio",400,813410,813410,8641,,,Y
+S30,Economic Development,213,813410,813410,8641,,,Y
+S31,"Urban, Community Economic Deve",400,813410,813410,8641,,,Y
+S32,Rural Development,400,813410,813410,8641,,,Y
+S40,Business and Industry,202,813910,813910,8611,,,Y
+S41,Promotion of Business,200,813910,813910,8611,,,Y
+S43,Management Services for Small,404,541618,541610,8748,,,Y
+S46,Boards of Trade,404,813910,813910,8611,,,Y
+S47,Real Estate Organizations,201,531390,531390,6531,,,Y
+S50,Nonprofit Management,404,541618,541610,8748,,,Y
+S80,Community Service Clubs,404,813410,813410,8641,,,Y
+S81,Women's Service Clubs,285,813410,813410,8641,,,Y
+S82,Men's Service Clubs,404,813410,813410,8641,,,Y
+S99,"Community Improvement, Capacit",404,813410,813410,8641,,,Y
+T01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+T02,Management & Technical Assista,125,541618,541610,8748,,,Y
+T03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+T05,Research Institutes,124,541720,541720,8733,,,Y
+T11,Single Organization Support,206,813219,813210,8399,,,Y
+T12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+T19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+T20,Private Grantmaking Foundation,922,813211,813210,6732,,,Y
+T21,Corporate Foundations,922,813211,813210,6732,,,Y
+T22,Private Independent Foundation,922,813211,813210,6732,,,Y
+T23,Private Operating Foundations,922,813211,813210,6732,,,Y
+T30,Public Foundations,922,813211,813210,6732,,,Y
+T31,Community Foundations,922,813211,813210,6732,,,Y
+T40,Voluntarism Promotion,922,813219,813210,8399,,,Y
+T50,"Philanthropy, Charity, Volunta",922,813219,813210,8399,,,Y
+T70,Fund Raising Organizations Tha,600,813219,813210,8399,,,Y
+T90,Named Foundations/Trusts N.E.C,922,813211,813210,6732,,,Y
+T99,"Philanthropy, Voluntarism, and",922,813219,813210,8399,,,Y
+U01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+U02,Management & Technical Assista,125,541618,541610,8748,,,Y
+U03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+U05,Research Institutes,124,541720,541720,8733,,,Y
+U11,Single Organization Support,206,813219,813210,8399,,,Y
+U12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+U19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+U20,"Science, General",180,541710,541710,8733,,,Y
+U21,Marine Science and Oceanograph,180,541710,541710,8733,,,Y
+U30,"Physical Sciences, Earth Scien",180,541710,541710,8733,,,Y
+U31,Astronomy,180,541710,541710,8733,,,Y
+U33,"Chemistry, Chemical Engineerin",180,541710,541710,8733,,,Y
+U34,Mathematics,180,541710,541710,8733,,,Y
+U36,Geology,180,541710,541710,8733,,,Y
+U40,Engineering and Technology Res,180,541710,541710,8733,,,Y
+U41,Computer Science,180,541710,541710,8733,,,Y
+U42,Engineering,180,541710,541710,8733,,,Y
+U50,"Biological, Life Science Resea",162,541710,541710,8733,,,Y
+U99,Science and Technology Researc,180,541710,541710,8733,,,Y
+V01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+V02,Management & Technical Assista,125,541618,541610,8748,,,Y
+V03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+V05,Research Institutes,124,541720,541720,8733,,,Y
+V11,Single Organization Support,206,813219,813210,8399,,,Y
+V12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+V19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+V20,"Social Science Institutes, Ser",,541720,541720,8733,,,Y
+V21,"Anthropology, Sociology",,541720,541720,8733,,,Y
+V22,Economics (as a social science,,541720,541720,8733,,,Y
+V23,Behavioral Science,,541720,541720,8733,,,Y
+V24,Political Science,,541720,541720,8733,,,Y
+V25,Population Studies,,541720,541720,8733,,,Y
+V26,"Law, International Law, Jurisp",,541720,541720,8733,,,Y
+V30,Interdisciplinary Research,,541720,541720,8733,,,Y
+V31,Black Studies,,541720,541720,8733,,,Y
+V32,Women's Studies,,541720,541720,8733,,,Y
+V33,Ethnic Studies,,541720,541720,8733,,,Y
+V34,Urban Studies,,541720,541720,8733,,,Y
+V35,International Studies,,541720,541720,8733,,,Y
+V36,Gerontology (as a social scien,,541720,541720,8733,,,Y
+V37,Labor Studies,,541720,541720,8733,,,Y
+V99,Social Science Research Instit,,541720,541720,8733,,,Y
+W01,Alliance/Advocacy Organization,514,813319,813310,8399,,,Y
+W02,Management & Technical Assista,125,541618,541610,8748,,,Y
+W03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+W05,Research Institutes,124,541720,541720,8733,,,Y
+W11,Single Organization Support,206,813219,813210,8399,,,Y
+W12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+W19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+W20,Government and Public Administ,904,813410,813410,8641,,,Y
+W22,"Public Finance, Taxation, Mone",924,813410,813410,8641,,,
+W24,Citizen Participation,908,813410,813410,8641,,,Y
+W30,"Military, Veterans' Organizat",907,813410,813410,8641,,,Y
+W40,"Public Transportation Systems,",915,480000,480000,4111,,,Y
+W50,"Telephone, Telegraph and Telec",915,513300,513300,4812,,"481,248,134,822",Y
+W60,"Financial Institutions, Servic",562,522000,522000,6282,"code for """"financial advice, investment""""",,Y
+W61,Credit Unions,251,522130,522130,6061,,"60,616,062",Y
+W70,Leadership Development,914,813410,813410,8699,"code for """"mem. orgs. n.e.c.""""",,Y
+W80,Public Utilities,915,221000,221000,4939,,,Y
+W90,"Consumer Protection, Safety",530,813319,813310,8399,,,Y
+W99,"Public, Society Benefit - Mult",,813410,813410,8641,,,Y
+X01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+X02,Management & Technical Assista,125,541618,541610,8748,,,Y
+X03,"Professional Societies, Associ",2,813920,813920,8621,,,Y
+X05,Research Institutes,124,541720,541720,8733,,,Y
+X11,Single Organization Support,4,813219,813210,8399,,,Y
+X12,Fund Raising and/or Fund Distr,4,813219,813210,8399,,,Y
+X19,Nonmonetary Support N.E.C.,4,813219,813210,8399,,,Y
+X20,Christian,1,813110,813110,8661,,,Y
+X21,Protestant,1,813110,813110,8661,,,Y
+X22,Roman Catholic,1,813110,813110,8661,,,Y
+X30,Jewish,1,813110,813110,8661,,,Y
+X40,Islamic,1,813110,813110,8661,,,Y
+X50,Buddhist,1,813110,813110,8661,,,Y
+X70,Hindu,1,813110,813110,8661,,,Y
+X80,"Religious Media, Communication",29,510000,,,,,Y
+X81,"Religious Film, Video",29,512110,512110,7812,,,Y
+X82,Religious Television,29,513120,513120,4833,,,Y
+X83,"Religious Printing, Publishing",8,511100,511100,2711,,,
+X84,Religious Radio,29,511100,511100,4832,,,Y
+X90,Interfaith Issues,29,813110,813110,8661,,,Y
+X99,"Religion Related, Spiritual De",29,813110,813110,8661,,,Y
+Y01,Alliance/Advocacy Organization,,813319,813310,8399,,,Y
+Y02,Management & Technical Assista,125,541618,541610,8748,,,Y
+Y03,"Professional Societies, Associ",205,813920,813920,8621,,,Y
+Y05,Research Institutes,124,541720,541720,8733,,,Y
+Y11,Single Organization Support,206,813219,813210,8399,,,Y
+Y12,Fund Raising and/or Fund Distr,602,813219,813210,8399,,,Y
+Y19,Nonmonetary Support N.E.C.,603,813219,813210,8399,,,Y
+Y20,"Insurance Providers, Services",211,524110,524110,6311,,,Y
+Y22,Local Benevolent Life Insuranc,211,524113,524110,6311,,,Y
+Y23,Mutual Insurance Company or As,211,524113,524110,6311,,,Y
+Y24,Supplemental Unemployment Comp,211,923130,,9441,,,Y
+Y25,State-Sponsored Worker's Comp,211,923130,,9441,,,Y
+Y30,Pension and Retirement Funds,259,525110,524290,6371,,,Y
+Y33,Teachers Retirement Fund Assoc,259,525110,,6371,,,Y
+Y34,Employee Funded Pension Trust,259,525110,,6371,,,Y
+Y35,Multi-Employer Pension Plans,259,525110,,6371,,,Y
+Y40,Fraternal Beneficiary Societie,259,813410,813410,8641,,,Y
+Y42,Domestic Fraternal Societies,259,813410,813410,8641,,,Y
+Y43,Voluntary Employees Beneficiar,259,813410,813410,8641,,,Y
+Y44,Voluntary Employees Beneficiar,259,813410,813410,8641,,,Y
+Y50,"Cemeteries, Burial Services",900,812220,812220,6531,,"65,317,261",Y
+Y99,Mutual/Membership Benefit Orga,259,813410,813410,8699,,,Y
+Z99,Unknown,,,,,,,Y
+A24,Folk Arts,,710000,710000,,,,
+A27,Community Celebrations,,710000,710000,,,,
+A53,Folk Arts Museums,,712110,712110,,,,
+A82,Historical Societies & Historic Preservation,,712120,712120,,,,
+B29,Charter Schools,,611110,611110,,,,
+G32,Breast Cancer,,813212,813212,,,,
+H32,Breast Cancer Research,,541710,541710,,,,
+L24,Independent Housing for People with Disabilities,,624229,624229,,,,
+M60,Public Safety Benevolent Associations,,624230,624230,,,,
+P47,Pregnancy Centers,,621410,621410,,,,
+P71,Adult Day Care,,623310,623310,,,,
+P76,Homes for Children & Adolescents,,624110,624110,,,,
+P83,Women's Centers,,624190,624190,,,,
+P88,LGBT Centers,,813300,813300,,,,
+Q34,International Educational Development,,611710,611710,,,,
+Q35,International Democracy & Civil Society Development,,813319,813319,,,,
+Q36,International Science & Technology Development,,541710,541710,,,,
+Q38,"International Environment, Population & Sustainability",,813312,813312,,,,
+Q39,International Health Development,,923120,923120,,,,
+Q50,"International Affairs, Foreign Policy, & Globalization",,928100,928100,,,,
+Q51,International Economic & Trade Policy,,926110,926110,,,,
+R21,Immigrants' Rights,,813311,813311,,,,
+R27,Patients' Rights,,813311,813311,,,,
+R28,Children's Rights,,813311,813311,,,,
+R29,Employee & Workers' Rights,,813311,813311,,,,
+R65,Freedom of Religion Issues,,813311,813311,,,,
+Y41,Fraternal Beneficiary Societies,,813410,813410,,,,
