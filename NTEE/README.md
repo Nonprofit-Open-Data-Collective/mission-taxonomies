@@ -17,7 +17,7 @@ For a more friendly format, [dhenderson has created a JSON version](https://gith
 
 Or you can download the table as a CSV:
 
-[ntee.csv](https://github.com/Nonprofit-Open-Data-Collective/mission-taxonomies/tree/main/NTEE)
+[ntee.csv](https://github.com/Nonprofit-Open-Data-Collective/mission-taxonomies/blob/main/NTEE/ntee.csv)
 
 
 ## New NTEE Format
