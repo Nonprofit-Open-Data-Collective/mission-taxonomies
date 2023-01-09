@@ -1,42 +1,53 @@
-10 MAJOR NTEE CATEGORIES (ntmaj10*)
+## 10 MAJOR NTEE CATEGORIES (ntmaj10*)
+
 Groups 26 main NTEE categories A-Z (1stcharacter of 3-character NTEE) into 10 major categories.
-NTEE    Code    Description
-A   AR  Arts, culture, and humanities
-B   ED  Education
-C,D EN  Environment
-E,F,G,H HE  Health
-I,J,K,L,M,N,O,P HU  Human services
-Q   IN  International
-R,S,T,U,V,W PU  Public and societal benefit
-X   RE  Religion
-Y   MU  Mutual benefit
-Z   UN  Unknown
-* ntmaj10 is the basis for ntmaj5 and ntmaj12
+
+*ntmaj10 is the basis for ntmaj5 and ntmaj12*
+
+| NTEE            | Code | Description                   |
+|-----------------|------|-------------------------------|
+| A               | AR   | Arts, culture, and humanities |
+| B               | ED   | Education                     |
+| C,D             | EN   | Environment                   |
+| E,F,G,H         | HE   | Health                        |
+| I,J,K,L,M,N,O,P | HU   | Human Services                |
+| Q               | IN   | International                 |
+| R,S,T,U,V,W     | PU   | Public and societal benefit   |
+| X               | RE   | Religion                      |
+| Y               | MU   | Mutual benefit                |
+| Z               | UN   | Unknown                       |
+
+
  
-12 MAJOR NTEE CATEGORIES (ntmaj12)
+## 12 MAJOR NTEE CATEGORIES (ntmaj12)
 Expands 10 Major NTEE categories into 12 categories, with Higher Education (B4 & B5) separate from other education organizations (B), and Hospitals (E2) separate from other health organizations (E).
-NTEE    Code    Description
-A   AR  Arts, culture, and humanities
-B4,B5   BH  Higher education
-B (other than B4,B5)    ED  Education (other)
-C,D EN  Environment
-E2  EH  Hospitals
-E (other than E2),F,G,H HE  Health (other)
-I,J,K,L,M,N,O,P HU  Human services
-Q   IN  International
-R,S,T,U,V,W PU  Public and societal benefit
-X   RE  Religion
-Y   MU  Mutual benefit
-Z   UN  Unknown
+
+|NTEE| Code| Description|
+|:----|:----|:----|
+|A| AR| Arts, culture, and humanities|
+|B4,B5| BH| Higher education|
+|B (other than B4,B5)| ED| Education (other)|
+|C,D|EN| Environment|
+|E2| EH| Hospitals|
+|E (other than E2),F,G,H|HE| Health (other)|
+|I,J,K,L,M,N,O,P|HU| Human services|
+|Q| IN| International|
+|R,S,T,U,V,W|PU| Public and societal benefit|
+|X| RE| Religion|
+|Y| MU| Mutual benefit|
+|Z| UN| Unknown|
+
  
-5 MAJOR NTEE CATEGORIES (ntmaj5)
+## 5 MAJOR NTEE CATEGORIES (ntmaj5)
 Groups 10 Major NTEE categories into 5 categories.
-NTEE    Code    Description
-A   AR  Arts, culture, and humanities
-B   ED  Education
-E,F,G,H HE  Health
-I,J,K,L,M,N,O,P HU  Human services
-C,D,Q,R,S,T,U,V,W,X,Y,Z OT  Other
+
+|NTEE| Code| Description|
+|:----|:----|:----|
+| A |  AR  |  Arts, culture, and humanities | 
+| B  |   ED   | Education | 
+| E,F,G,H  | HE  |  Health | 
+| I,J,K,L,M,N,O,P |  HU  |  Human services | 
+| C,D,Q,R,S,T,U,V,W,X,Y,Z  | OT  |  Other | 
 
 
 ```r
