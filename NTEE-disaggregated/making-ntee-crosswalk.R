@@ -63,6 +63,7 @@ ntee.crosswalk <-
 
 
 ## Save 
-save(ntee.crosswalk, file = "data/ntee-crosswalk.rda")
+save(ntee.crosswalk, file = "NTEE-disaggregated/ntee-crosswalk.rda")
+write.csv(ntee.crosswalk, file = "NTEE-disaggregated/ntee-crosswalk.csv")
 
 
