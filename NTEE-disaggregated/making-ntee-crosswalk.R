@@ -40,9 +40,9 @@ ntee.crosswalk <-
   # get centile values
   dplyr::mutate(ones = substr(two.digit.s, 2, 2)) %>%
   #get Hosp
-  dplyr::mutate(hosp = ifelse(MajorGroup == "E" & tens == 2, TRUE, FALSE)) %>%
+  dplyr::mutate(hosp = ifelse(MajorGroup == "E" & substr(two.digit, 1, 1) == 2, TRUE, FALSE)) %>% # from two.digit., not two.digit.s
   #get Univ 
-  dplyr::mutate(univ = ifelse(MajorGroup == "B" & (tens == 4 | tens == 5), TRUE, FALSE))  %>%
+  dplyr::mutate(univ = ifelse(MajorGroup == "B" & (substr(two.digit, 1, 1) == 4 | substr(two.digit, 1, 1) == 5), TRUE, FALSE))  %>% # from two.digit., not two.digit.s
   #Broad Category
   dplyr::mutate(BroadCategory = case_when(MajorGroup == "A" ~ 1, 
                                         MajorGroup == "B" & !univ ~ 2, 
