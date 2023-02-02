@@ -63,5 +63,5 @@ ntee.levels <-
 
 
 ## Save 
-save( ntee.levels, file = "ntee-levels.rda" )
-write.csv( ntee.levels, "ntee-levels.csv", row.names=F )
+save( ntee.levels, file = "NTEE/ntee-levels.rda" )
+write.csv( ntee.levels, "NTEE/ntee-levels.csv", row.names=F )

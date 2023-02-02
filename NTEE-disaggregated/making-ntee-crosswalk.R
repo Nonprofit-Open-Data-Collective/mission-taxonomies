@@ -5,7 +5,7 @@ library(readr)
 
 ## Read in data 
 #Regular codes 
-codes.orig <- read_csv("NTEE/ntee.csv", col_select = 1)
+codes.orig <- read_csv("NTEE/ntee-levels.csv", col_select = 1)
 colnames(codes.orig) <- "NTEE"
 
 #Known used specialty letter+4digit codes 
