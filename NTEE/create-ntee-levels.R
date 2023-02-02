@@ -1,17 +1,22 @@
 ### Crosswalk 
-library(tidyverse)
-library(rvest)
+library(dplyr)
+library(readr)
 
-ntee_list <- 
-  "https://nccs.urban.org/publication/irs-activity-codes" %>%
-  xml2::read_html() %>%
-  rvest::html_nodes(css = "table") %>%
-  rvest::html_table(fill = TRUE)
 
-ntee.list <- ntee_list[[1]]
-names( ntee.list ) <- c("ntee","description","definition")
+#obtaining original NTEE codes 
+# ntee_list <- 
+#   "https://nccs.urban.org/publication/irs-activity-codes" %>%
+#   xml2::read_html() %>%
+#   rvest::html_nodes(css = "table") %>%
+#   rvest::html_table(fill = TRUE)
+# 
+# ntee.list <- ntee_list[[1]]
+# names( ntee.list ) <- c("ntee","description","definition")
+# 
+# write_csv( ntee.list, "NTEE/all-ntee-original.csv", row.names=F )
 
-# write.csv( ntee.list, "ntee2.csv", row.names=F )
+# Import data 
+ntee.list <- read_csv("NTEE/all-ntee-original.csv")
 
 #extract major groups (letters)
 ntee.major.group <- ntee.list[ which( nchar( ntee.list$ntee ) < 3 ), ]
