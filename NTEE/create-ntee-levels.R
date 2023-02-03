@@ -32,7 +32,7 @@ ntee.levels <-
   #dissect NTEE to get mission levels
   dplyr::mutate( two.digit = substr( ntee, 2, 3 ) )%>%
   #Regular or specialty org
-  dplyr::mutate( type.org = ifelse( two.digit < 20, "S", "R" ) ) %>%
+  dplyr::mutate( type.org = ifelse( two.digit < 20, "speciality", "regular" ) ) %>%
   # not needed for cross walk, only needed for actual organizations. 
   # explanation in RMD
   #get further two digit if available for specialty or just two.digit if not available 
