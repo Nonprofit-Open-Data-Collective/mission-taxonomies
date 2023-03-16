@@ -31,8 +31,8 @@ ntee.crosswalk <-
   # not needed for cross walk, only needed for actual organizations. 
   # explanation in RMD
   #get further two digit if available for specialty or just two.digit if not available 
-  dplyr::mutate(two.digit.s = dplyr::case_when(type.org == "S" & nchar(NTEE) == 4 ~ paste(substr(NTEE, 4, 4), 0),
-                                               type.org == "S" & nchar(NTEE) == 5 ~ paste(substr(NTEE, 4, 5)),
+  dplyr::mutate(two.digit.s = dplyr::case_when(type.org == "speciality" & nchar(NTEE) == 4 ~ paste(substr(NTEE, 4, 4), 0),
+                                               type.org == "speciality" & nchar(NTEE) == 5 ~ paste(substr(NTEE, 4, 5)),
                                                TRUE ~ two.digit)) %>%
   #get decile values
   dplyr::mutate(tens = substr(two.digit.s, 1, 1)) %>%
