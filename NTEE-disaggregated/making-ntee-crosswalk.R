@@ -23,43 +23,50 @@ ntee.codes <- codes.orig[ which(nchar(codes.orig$`NTEE`) == 3), ]
 ntee.crosswalk <- 
   rbind(ntee.codes, codes.special) %>%
   arrange(NTEE) %>%
-  dplyr::mutate(MajorGroup = substr(NTEE, 1, 1)) %>%
-  #dissect NTEE to get mission levels
+  ## Get Hospital and Univ indicators
+  dplyr::mutate(hosp = NTEE %in% c("E20", "E21", "E22", "E24")) %>%
+  dplyr::mutate(univ = NTEE %in% c("B40", "B41", "B42", "B43", "B50")) %>%
+  #Major Group
+  dplyr::mutate(major.group = substr(NTEE, 1, 1)) %>%
+  #Broad Category 
+  dplyr::mutate(broad.category = case_when(major.group == "A" ~ "ART", 
+                                          major.group == "B" & !univ ~ "EDU", 
+                                          major.group %in% c("C", "D") ~ "ENV",
+                                          major.group %in% c("E", "F", "G", "H") & !hosp ~ "HEL",
+                                          major.group %in% c("I", "J", "K", "L", "M", "N", "O", "P") ~ "HMS",
+                                          major.group == "Q" ~ "IFA", 
+                                          major.group %in% c("R", "S", "T", "U", "V", "W") ~ "PSB",
+                                          major.group == "X" ~ "REL", 
+                                          major.group == "Y" ~ "MMB", 
+                                          major.group == "Z" ~ "UNU",
+                                          major.group == "B" & univ ~ "UNI", 
+                                          major.group == "E" & hosp ~ "HOS"))%>%
+  #dissect NTEE to get organization type
   dplyr::mutate(two.digit = substr(NTEE, 2, 3))%>%
-  #Regular or specialty org
-  dplyr::mutate(type.org = ifelse(two.digit < 20, "speciality", "regular")) %>%
-  # not needed for cross walk, only needed for actual organizations. 
-  # explanation in RMD
-  #get further two digit if available for specialty or just two.digit if not available 
-  dplyr::mutate(two.digit.s = dplyr::case_when(type.org == "speciality" & nchar(NTEE) == 4 ~ paste(substr(NTEE, 4, 4), 0),
-                                               type.org == "speciality" & nchar(NTEE) == 5 ~ paste(substr(NTEE, 4, 5)),
-                                               TRUE ~ two.digit)) %>%
-  #get decile values
-  dplyr::mutate(tens = substr(two.digit.s, 1, 1)) %>%
-  dplyr::mutate(tens = ifelse(tens < 2, 0, tens)) %>% #all specialty orgs get 0 in the tens place
-  # get centile values
-  dplyr::mutate(ones = substr(two.digit.s, 2, 2)) %>%
-  #get Hosp
-  dplyr::mutate(hosp = ifelse(MajorGroup == "E" & substr(two.digit, 1, 1) == 2, TRUE, FALSE)) %>% # from two.digit., not two.digit.s
-  #get Univ 
-  dplyr::mutate(univ = ifelse(MajorGroup == "B" & (substr(two.digit, 1, 1) == 4 | substr(two.digit, 1, 1) == 5), TRUE, FALSE))  %>% # from two.digit., not two.digit.s
-  #Broad Category
-  dplyr::mutate(BroadCategory = case_when(MajorGroup == "A" ~ 1, 
-                                        MajorGroup == "B" & !univ ~ 2, 
-                                        MajorGroup %in% c("C", "D") ~ 3,
-                                        MajorGroup %in% c("E", "F", "G", "H") & !hosp ~ 4,
-                                        MajorGroup %in% c("I", "J", "K", "L", "M", "N", "O", "P") ~ 5,
-                                        MajorGroup == "Q" ~ 6, 
-                                        MajorGroup %in% c("R", "S", "T", "U", "V", "W") ~ 7,
-                                        MajorGroup == "X" ~ 8, 
-                                        MajorGroup == "Y" ~ 9, 
-                                        MajorGroup == "Z" ~ 10,
-                                        MajorGroup == "B" & univ ~ 11, 
-                                        MajorGroup == "E" & hosp ~ 12))%>%
-  dplyr::relocate(BroadCategory, .before = MajorGroup)
-
-
-
+  dplyr::mutate(type.org = 
+                  case_when(
+                    two.digit == "01" ~ "AA", 
+                    two.digit == "02" ~ "MT",
+                    two.digit == "03" ~ "PA",
+                    two.digit == "05" ~ "RP",
+                    two.digit == "11" ~ "MS", 
+                    two.digit == "12" ~ "MM",
+                    two.digit == "19" ~ "NS", 
+                    TRUE ~ "RG")) %>%
+  # dissect NTEE to get division
+  dplyr::mutate(further.category = substr(NTEE, 4, 5)) %>%
+  dplyr::mutate(division.subdivision = 
+                  case_when(
+                    type.org == "RG" ~ two.digit,
+                    type.org != "RG" & nchar(further.category) == 0 ~ "00",
+                    type.org != "RG" & nchar(further.category) == 2 ~ further.category)) %>%
+  #New NTEE code
+  dplyr::mutate(new.code = paste0(type.org, "-", broad.category, "-", major.group, division.subdivision)) %>%
+  #Format Table
+  rename(old.code = NTEE) %>%
+  select(-univ, -hosp) %>%
+  relocate(old.code, new.code, type.org, broad.category, major.group, 
+           univ, hosp, two.digit, further.category, division.subdivision)
 
 
 ## Save 
