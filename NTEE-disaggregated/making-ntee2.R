@@ -73,10 +73,10 @@ ntee.descriptions <-
           dplyr::select(ntee, description, definition)) %>% 
   dplyr::arrange(ntee)
 
-## adding a few definitions to problem cases (K6A - K6F)
+## adding a few definitions to problem cases (K6A - K6F, K2A, K2A, K2B, K2C, E6A, L4A, L4B, N2A, N2B, P7A)
 
-ntee.descriptions$definition[ntee.descriptions$ntee %in% c("K6A", "K6B", "K6C", "K6D", "K6E", "K6F") ] <-
-  ntee.descriptions$description[ntee.descriptions$ntee %in% c("K6A", "K6B", "K6C", "K6D", "K6E", "K6F") ]
+ntee.descriptions$definition[ntee.descriptions$definition == "NULL" ] <-
+  ntee.descriptions$description[ntee.descriptions$definition == "NULL"]
 
 # Add K60 to ntee.descriptions for merging and labeling purposes
 # will not be in final table as K60 is not a real NTEE code
