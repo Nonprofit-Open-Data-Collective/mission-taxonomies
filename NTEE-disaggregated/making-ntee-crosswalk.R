@@ -175,8 +175,8 @@ for(i in 1:nrow(ntee.crosswalk)){
 
 
 ## Save 
-save(ntee.crosswalk, file = "NTEE-disaggregated/ntee-crosswalk.rda")
-write.csv(ntee.crosswalk, file = "NTEE-disaggregated/ntee-crosswalk.csv", row.names = F)
+save(ntee.crosswalk, file = "NTEE-disaggregated/ntee-disaggregated.rda")
+write.csv(ntee.crosswalk, file = "NTEE-disaggregated/ntee-disaggregated.csv", row.names = F)
 
 
 
