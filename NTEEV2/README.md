@@ -188,52 +188,23 @@ This is the same categorization as broad categories above, but under a different
 
 #### Level 2: Major Group
 
-Level 2 is the same as the original NTEE1 Major Groups:  
-
-| Industry Label |	Description|
-|------------------|-------------|
-|A	| Arts, Culture & Humanities |
-|B	| Education |
-|C	| Environment |
-|D	| Animal-Related |
-|E	| Health Care |
-|F	| Mental Health & Crisis Intervention |
-|G	| Voluntary Health Associations & Medical Disciplines |
-|H	| Medical Research |
-|I	| Crime & Legal-Related |
-|J	| Employment |
-|K	| Food, Agriculture & Nutrition |
-|L	| Housing & Shelter |
-|M	| Public Safety, Disaster Preparedness & Relief |
-|N	| Recreation & Sports |
-|O	| Youth Development |
-|P	| Human Services |
-|Q	| International, Foreign Affairs & National Security |
-|R	| Civil Rights, Social Action & Advocacy |
-|S	| Community Improvement & Capacity Building |
-|T	| Philanthropy, Voluntarism & Grantmaking Foundations |
-|U	| Science & Technology |
-|V	| Social Science |
-|W	| Public & Societal Benefit |
-|X	| Religion-Related |
-|Y	| Mutual & Membership Benefit |
-|Z	| Unknown |
+Level 2 is the same as the original NTEE1 Major Groups listed above (subsectors A-Z).   
 
 
 #### Levels 3-4: Division and Subdivision 
 
 ```
-B  EDUCATION 
-+--  B20 ELEMENTARY AND SECONDARY SCHOOLS
-¦ +--B21 Preschools
+B  EDUCATION                                   (major group)
++--  B20 ELEMENTARY AND SECONDARY SCHOOLS      (division)
+¦ +--B21 Preschools                            (subdivision)
 ¦ +--B24 Primary & Elementary Schools
 ¦ +--B25 Secondary & High Schools
 ¦ +--B28 Special Education
 ¦ +--B29 Charter School
 ```
 
-* B2x = **DIVISION** 
-* B21 = **SUBDIVISION**
+* B2x = **Level 3: DIVISION** 
+* B21 = **Level 4: SUBDIVISION**
 
 
 #### Level 5 - Organization Type
