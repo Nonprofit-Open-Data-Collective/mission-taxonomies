@@ -13,7 +13,7 @@ different version with more codes, as well as "population/beneficiary"
 codes to indicate the type of population served and "auspice" codes to
 indicate religious or governmental affiliation.
 
-## Original NTEE Codes
+## Original NTEE Structure
 
 Both the structure and the interpretation of an NTEE code varies by the
 type of nonprofit it describes, regular or specialty. Most nonprofits
@@ -23,33 +23,9 @@ Specialty organizations are those whose primary mission is to provide advocacy, 
 fundraising, and/or technical assistance to separate nonprofit(s).
 
 
-####  Regular Nonprofits
+#### Major Groups 
 
-Regular nonprofits have NTEE codes with three characters, one letter
-followed by two numbers. The letter represents the major group, the
-first number represents the division, and the second number represents
-the subdivision. Subdivisions are nested inside divisions, which are
-nested inside major groups, which are nested inside broad categories.
-
-```
-B  EDUCATION¦  
-+--  B20 ELEMENTARY AND SECONDARY SCHOOLS
-¦ +--B21 Preschools
-¦ +--B24 Primary & Elementary Schools
-¦ +--B25 Secondary & High Schools
-¦ +--B28 Special Education
-¦ +--B29 Charter School
-```
-
-* Bxx = Major Group 
-* B2x = Division 
-* B21 = Subdivision
-
-There are a total of 26 major groups nested inside 12 broad categories.
-Each major group contains between 1 and 8 divisions, and each division
-contains between 1 and 10 subdivisions.
-
-The 26 major groups and their corresponding letters are:
+There are a total of 26 major groups designated by letters A-Z. The 26 major groups and their corresponding letters are:
 
 | NTEE Major Group |	Description|
 |------------------|-------------|
@@ -80,26 +56,52 @@ The 26 major groups and their corresponding letters are:
 |Y	| Mutual & Membership Benefit |
 |Z	| Unknown |
 
-The NTEE classification system divides the universe of nonprofit
-organizations into 26 major groups (letters A - Z) under 10 broad
+####  Regular Nonprofits
+
+Regular nonprofits have NTEE codes with three characters, one letter
+followed by two numbers. The letter represents the major group, the
+first number represents the division, and the second number represents
+the subdivision. 
+
+```
+B  EDUCATIONÂ¦  
++--  B20 ELEMENTARY AND SECONDARY SCHOOLS
+Â¦ +--B21 Preschools
+Â¦ +--B24 Primary & Elementary Schools
+Â¦ +--B25 Secondary & High Schools
+Â¦ +--B28 Special Education
+Â¦ +--B29 Charter School
+```
+
+* Bxx = Major Group 
+* B2x = Division 
+* B21 = Subdivision
+
+Each major group contains between 1 and 8 divisions, and each division
+contains between 1 and 10 subdivisions.
+
+#### Broad Industries 
+
+The NTEE classification system aggregates the 
+26 major groups (letters A - Z) into 10 broad
 categories (numerals I-X) as follows: 
   
-1. Arts, Culture, and Humanities (ART) - A 
-2. Education (EDU) - B, excluding NTEE codes B40, B41, B42, and B43 
-3. Environment and Animals (ENV) - C, D 
-4. Health (HEL) - E, F,G, H
-5. Human Services(HMS)- I, J, K, L, M, N, O, P 
-6. International, Foreign Affairs (IFA) - Q 
-7. Public, Societal Benefit (PSB) - R, S, T, U, V, W 
-8. Religion Related (REL) - X 
-9. Mutual/Membership Benefit (MMB) - Y 
-10. Unknown, Unclassified (UNU)- Z 
+1. I. Arts, Culture, and Humanities (ART) - A 
+2. II. Education (EDU) - B, excluding NTEE codes B40, B41, B42, and B43 
+3. III. Environment and Animals (ENV) - C, D 
+4. IV. Health (HEL) - E, F,G, H
+5. V. Human Services(HMS)- I, J, K, L, M, N, O, P 
+6. VI. International, Foreign Affairs (IFA) - Q 
+7. VII. Public, Societal Benefit (PSB) - R, S, T, U, V, W 
+8. VIII. Religion Related (REL) - X 
+9. IX. Mutual/Membership Benefit (MMB) - Y 
+10. X. Unknown, Unclassified (UNU)- Z 
 
 All regular NTEE codes are listed in the `mission-taxonomies/NTEE/all-ntee-original.csv` file.
 
 
 
-#### Specality Organizations: "Common Codes"
+#### Specality Organizations: The "Common Codes"
 
 
 Common Codes represent activities of organizations, such as research, fundraising, and technical assistance, which are common to all major groups. The seven common codes used are:
@@ -153,29 +155,6 @@ category distinctions as regular NTEE codes. Because no specialty
 nonprofit itself can be a university or a hospital (although they can
 still provide support to universities or hospitals), no specialty NTEE
 code will have a broad category of 11 or 12.
-
-#### NTEE Code Dendrogram 
-
-The file `mission-taxonomies/ntee-dendrogram/ntee-dendrogram.html` provides a visual dendrogram that captures the overall NTEE Code structure. Hover the mouse over each node to see more information. Click on each node to expand it and see the categories inside of it.
-
-
-#### Codes
-
-A useful two-page summary of codes:
-
-[download](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/raw/master/docs/assets/NTEE_Two_Page_2005.pdf)
-
-A table of the NTEE codes is available at the National Center for Charitable Statistics:
-
-<https://nccs.urban.org/publication/irs-activity-codes>
-
-For a more friendly format, [dhenderson has created a JSON version](https://github.com/dhenderson/ntee):
-
-[ntee.json](https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/mission-taxonomies/main/NTEE/ntee.json)
-
-Or you can download the table as a CSV:
-
-[ntee.csv](https://github.com/Nonprofit-Open-Data-Collective/mission-taxonomies/blob/main/NTEE/ntee.csv)
 
 
 
@@ -246,17 +225,60 @@ Level 2 is the same as the original NTEE1 Major Groups:
 ```
 B  EDUCATION 
 +--  B20 ELEMENTARY AND SECONDARY SCHOOLS
-¦ +--B21 Preschools
-¦ +--B24 Primary & Elementary Schools
-¦ +--B25 Secondary & High Schools
-¦ +--B28 Special Education
-¦ +--B29 Charter School
+Â¦ +--B21 Preschools
+Â¦ +--B24 Primary & Elementary Schools
+Â¦ +--B25 Secondary & High Schools
+Â¦ +--B28 Special Education
+Â¦ +--B29 Charter School
 ```
 
 * B2x = **DIVISION** 
 * B21 = **SUBDIVISION**
 
 
+#### Level 5 - Organization Type
+
+The original NTEE Common Codes included subcategories of specialty organizations within each Major Group.  
+
+-   RG - Regular Nonprofit
+-   AA - Alliance/Advocacy Organizations
+-   MT - Management and Technical Assistance
+-   PA - Professional Societies/Associations
+-   RP - Research Institutes and/or Public Policy Analysis
+-   MS - Monetary Support - Single Organization
+-   MM - Monetary Support - Multiple Organizations
+-   NS - Nonmonetary Support Not Elsewhere Classified (N.E.C.)
+
+The original NTEE organization types were designated using numerical codes: 
+
+-  01 Alliance/Advocacy Organizations
+-  02 Management and Technical Assistance
+-  03 Professional Societies/Associations
+-  05 Research Institutes and/or Public Policy Analysis
+-  11 Monetary Support - Single Organization
+-  12 Monetary Support - Multiple Organizations
+-  19 Nonmonetary Support Not Elsewhere Classified (N.E.C.)
+
+This formulation was insufficient because sometimes the specialty activities occurred within a divion or subdivision instead of an entire major group. For example, an organization might engage in advocacy or fundraising specifically for Charter Schools (an L3 subdivision) or Performance Arts (an L2 division) instead of for the entire major groups of Education or Arts. These nuances were captured by adding additional codes to the original NTEE structure as follows: 
+
+> B1229
+
+Which translates to "monetary support" (B12) for charter schools (B29). These are confusing and inconsistent, leading to potential sampling problems. The creation of the Level 5 makes the Organizational Type explicit and allows for a more precise level of designation from L2 to L4: 
+
+* B00-AA (performs advocacy generally for education)
+* B20-AA (performs advocacy for schools)
+* B29-AA (performs advocacy specifically for charter schools)
+
+#### Comparing NTEE and NTEEV2
+
+![](v1-vs-v2.png)
+
+<br>
+<hr>
+<br>
+
+
+## Notes on NTEE to NTEEV2 Recoding
 
 **Intermediary Step**
 
@@ -299,36 +321,9 @@ Continuing the example above,
 
 - Example 1: If the original NTEE code is A32 then Level 3 is 2. 
 - Example 2: If the original NTEE code is A02, then Level 3 is 0. 
-- Example 3: if the original NTEE code is A1132 then Level 3 is 2. 
+- Example 3: if the original NTEE code is A1132 then Level 3 is 2.  
 
-#### Level 5 - Organization Type
-
-The original NTEE Common Codes included subcategories of specialty organizations within each Major Group. They were originally designated by 
-
--   RG - Regular Nonprofit
--   AA - Alliance/Advocacy Organizations
--   MT - Management and Technical Assistance
--   PA - Professional Societies/Associations
--   RP - Research Institutes and/or Public Policy Analysis
--   MS - Monetary Support - Single Organization
--   MM - Monetary Support - Multiple Organizations
--   NS - Nonmonetary Support Not Elsewhere Classified (N.E.C.)
-
-The original NTEE organization types were designated using numerical codes: 
-
--  01 Alliance/Advocacy Organizations
--  02 Management and Technical Assistance
--  03 Professional Societies/Associations
--  05 Research Institutes and/or Public Policy Analysis
--  11 Monetary Support - Single Organization
--  12 Monetary Support - Multiple Organizations
--  19 Nonmonetary Support Not Elsewhere Classified (N.E.C.)
-
-This formulation was insufficient because sometimes the specialty activities occurred within a divion or subdivision instead of an entire major group. For example, an organization might engage in advocacy or fundraising specifically for Charter Schools (an L3 subdivision) or Performance Arts (an L2 division) instead of for the entire major groups of Education or Arts. These nuances were captured by adding additional codes to the original NTEE structure as follows: 
-
-* B1229
-
-Which translates to "monetary support" (B12) for charter schools (B29). These are confusing and inconsistent, leading to potential sampling problems. As a result the Common Code designations have been converted to NTEEV2 Level 5 Organization Type codes as follows:
+**Level 5 - Organizational Type**
 
 *The `digits23` here refers to the second and third digits in the original NTEE code, such as "12" in "B12".* 
 
@@ -343,14 +338,29 @@ Which translates to "monetary support" (B12) for charter schools (B29). These ar
 
 
 
-#### Comparing NTEE and NTEEV2
 
-![](v1-vs-v2.png)
 
-<br>
-<hr>
-<br>
 
+
+#### Resources
+
+A useful two-page summary of codes:
+
+[download](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/raw/master/docs/assets/NTEE_Two_Page_2005.pdf)
+
+A table of the NTEE codes is available at the National Center for Charitable Statistics:
+
+<https://nccs.urban.org/publication/irs-activity-codes>
+
+For a more friendly format, [dhenderson has created a JSON version](https://github.com/dhenderson/ntee):
+
+[ntee.json](https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/mission-taxonomies/main/NTEE/ntee.json)
+
+Or you can download the table as a CSV:
+
+[ntee.csv](https://github.com/Nonprofit-Open-Data-Collective/mission-taxonomies/blob/main/NTEE/ntee.csv)
+
+The file `mission-taxonomies/ntee-dendrogram/ntee-dendrogram.html` provides a visual dendrogram that captures the overall NTEE Code structure. Hover the mouse over each node to see more information. Click on each node to expand it and see the categories inside of it.
 
 
 ## Compensator Package Notes
