@@ -83,19 +83,26 @@ contains between 1 and 10 subdivisions.
 #### Broad Industries 
 
 The NTEE classification system aggregates the 
-26 major groups (letters A - Z) into 10 broad
-categories (numerals I-X) as follows: 
-  
-1. I. Arts, Culture, and Humanities (ART) - A 
-2. II. Education (EDU) - B, excluding NTEE codes B40, B41, B42, and B43 
-3. III. Environment and Animals (ENV) - C, D 
-4. IV. Health (HEL) - E, F, G, H
-5. V. Human Services(HMS)- I, J, K, L, M, N, O, P 
-6. VI. International, Foreign Affairs (IFA) - Q 
-7. VII. Public, Societal Benefit (PSB) - R, S, T, U, V, W 
-8. VIII. Religion Related (REL) - X 
-9. IX. Mutual/Membership Benefit (MMB) - Y 
-10. X. Unknown, Unclassified (UNU)- Z 
+26 major groups (letters A - Z) into 12 broad
+categories or industries as follows: 
+
+```
+# NTMAJ12
+A                         AR  Arts, culture, and humanities
+B4, B5                    BH  Higher education
+B (other than B4,B5)      ED  Education (other)
+C,D                       EN  Environment
+E2                        EH  Hospitals
+E (other than E2),F,G,H   HE  Health 
+I,J,K,L,M,N,O,P           HU  Human services
+Q                         IN  International
+R,S,T,U,V,W               PU  Public and societal benefit
+X                         RE  Religion
+Y                         MU  Mutual benefit
+Z                         UN  Unknown
+```
+
+There is also five-industry group (NTMAJ5) and ten-industry group (NTMAJ10) - see below. 
 
 All regular NTEE codes are listed in the `mission-taxonomies/NTEE/all-ntee-original.csv` file.
 
