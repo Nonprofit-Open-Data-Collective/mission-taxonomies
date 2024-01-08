@@ -89,7 +89,7 @@ categories (numerals I-X) as follows:
 1. I. Arts, Culture, and Humanities (ART) - A 
 2. II. Education (EDU) - B, excluding NTEE codes B40, B41, B42, and B43 
 3. III. Environment and Animals (ENV) - C, D 
-4. IV. Health (HEL) - E, F,G, H
+4. IV. Health (HEL) - E, F, G, H
 5. V. Human Services(HMS)- I, J, K, L, M, N, O, P 
 6. VI. International, Foreign Affairs (IFA) - Q 
 7. VII. Public, Societal Benefit (PSB) - R, S, T, U, V, W 
@@ -168,22 +168,24 @@ The NTEEV2 code format is as follows:
 
 #### Level 1: Industry Group
 
-The industry group is represented by three letters. The 10 options are:
+The industry group portion (the first three letters) contains the code for the 12-category 'NTMAJ12' industry clustering: 
 
--   ART - Arts, Culture, and Humanities
--   EDU - Education
--   ENV - Environment and Animals
--   HEL - Health
--   HMS - Human Services
--   IFA - International, Foreign Affairs
--   PSB - Public, Societal Benefit
--   REL - Religion Related
--   MMB - Mutual/Membership Benefit
--   UNU - Unknown, Unclassified
--   UNI - University
--   HOS - Hospital
+```
+ART - Arts, Culture, and Humanities (A)
+EDU - Education (B minus universities)
+ENV - Environment and Animals (C,D)
+HEL - Health (E,F,G,H minus hospitals)
+HMS - Human Services (I,J,K,L,M,N,O,P)
+IFA - International, Foreign Affairs (Q)
+PSB - Public, Societal Benefit (R,S,T,U,V,W)
+REL - Religion Related (X)
+MMB - Mutual/Membership Benefit (Y)
+UNU - Unknown, Unclassified (Z)
+UNI - Universities (B40, B41, B42, B43, and B50)
+HOS - Hospitals (E20, E21, E22, and E24)
+```
 
-This is the same categorization as broad categories above, but under a different name.  
+This is the same categorization used in the traditional NTEE "broad categories" described above.  
 
 
 #### Level 2: Major Group
@@ -333,6 +335,71 @@ Or you can download the table as a CSV:
 
 The file `mission-taxonomies/ntee-dendrogram/ntee-dendrogram.html` provides a visual dendrogram that captures the overall NTEE Code structure. Hover the mouse over each node to see more information. Click on each node to expand it and see the categories inside of it.
 
+
+## Industry Groups
+ 
+#### 5 MAJOR NTEE CATEGORIES (ntmaj5)
+
+Groups 10 Major NTEE categories into 5 categories.
+
+```
+A                        AR  Arts, culture, and humanities
+B                        ED  Education
+E,F,G,H                  HE  Health
+I,J,K,L,M,N,O,P          HU  Human services
+C,D,Q,R,S,T,U,V,W,X,Y,Z  OT  Other
+```
+
+#### 10 MAJOR NTEE CATEGORIES (ntmaj10)
+
+Groups 26 main NTEE categories A-Z (1stcharacter of 3-character NTEE) into 10 major categories.
+
+```
+A                 AR  Arts, culture, and humanities
+B                 ED  Education
+C,D               EN  Environment
+E,F,G,H           HE  Health
+I,J,K,L,M,N,O,P   HU  Human services
+Q                 IN  International
+R,S,T,U,V,W       PU  Public and societal benefit
+X                 RE  Religion
+Y                 MU  Mutual benefit
+Z                 UN  Unknown
+```
+ 
+#### 12 MAJOR NTEE CATEGORIES (ntmaj12)
+
+Expands 10 Major NTEE categories into 12 categories, with Higher Education (B4 & B5) separate from other education organizations (B), and Hospitals (E2) separate from other health organizations (E).
+
+```
+A                         AR  Arts, culture, and humanities
+B4, B5                    BH  Higher education
+B (other than B4,B5)      ED  Education (other)
+C,D                       EN  Environment
+E2                        EH  Hospitals
+E (other than E2),F,G,H   HE  Health 
+I,J,K,L,M,N,O,P           HU  Human services
+Q                         IN  International
+R,S,T,U,V,W               PU  Public and societal benefit
+X                         RE  Religion
+Y                         MU  Mutual benefit
+Z                         UN  Unknown
+```
+
+```
+UNIVERSITIES: 
+B40 Higher Education
+B41 Two-Year Colleges
+B42 Undergraduate Colleges
+B43 Universities
+B50 Graduate & Professional Schools
+---
+HOSPITALS:
+E20 Hospitals
+E21 Community Health Systems
+E22 General Hospitals
+E24 Specialty Hospitals
+```
 
 ## Compensator Package Notes
 
