@@ -115,13 +115,13 @@ The Standards are the foundation for [credentialing](https://docs.google.com/do
 
 The Standards address all aspects of an I&R program. They define the information and referral process in concrete terms; establish criteria for database development; mandate support for community planning activities; incorporate a broad view of collaboration at the local, state, provincial, territory and/or federal levels; include provisions for the responsible use of technology; describe the role of I&R services in times of disaster; and outlines ongoing [quality assurance](https://docs.google.com/document/d/1bqhZyUE8Wo5vSh8nqTxITlmMldWVja7C2qUrSHryOus/edit#bookmark=kix.ana2lbkc4jpt) processes. 
 
-Structure of the Standards document: *High-quality, standards-driven I&R services happen when all parts of the organization work together to provide the best experience for each person in need. This involves clear *[*policies*](https://docs.google.com/document/d/1bqhZyUE8Wo5vSh8nqTxITlmMldWVja7C2qUrSHryOus/edit#bookmark=kix.3sln8spo8fji)* and/or *[*procedures*](https://docs.google.com/document/d/1bqhZyUE8Wo5vSh8nqTxITlmMldWVja7C2qUrSHryOus/edit#bookmark=kix.1ue9h9pghbc)*, quality training and supervision, attentive contact handling and accurate resource curation. To highlight this concept, when applicable, the quality indicators are grouped into 3 areas: *
+Structure of the Standards document: *High-quality, standards-driven I&R services happen when all parts of the organization work together to provide the best experience for each person in need. This involves clear *[*policies*](https://docs.google.com/document/d/1bqhZyUE8Wo5vSh8nqTxITlmMldWVja7C2qUrSHryOus/edit#bookmark=kix.3sln8spo8fji)* and/or *[*procedures*](https://docs.google.com/document/d/1bqhZyUE8Wo5vSh8nqTxITlmMldWVja7C2qUrSHryOus/edit#bookmark=kix.1ue9h9pghbc)*, quality training and supervision, attentive contact handling and accurate resource curation. To highlight this concept, when applicable, the quality indicators are grouped into 3 areas: 
 
--   *Organizational Quality Indicators (Policies/Procedures) **for the administrative organization which includes considerations regarding policies or procedures *
+-   **Organizational Quality Indicators (Policies/Procedures)** for the administrative organization which includes considerations regarding policies or procedures
 
--   *Oversight Quality Indicators (Supervision/Coaching/Training) **for the service's management activities including supervision/coaching/training*
+-   **Oversight Quality Indicators (Supervision/Coaching/Training)** for the service's management activities including supervision/coaching/training
 
--   *Practice Quality Indicators (Staff/Volunteer Expectations) **for the daily practice/frontline service provision which focuses on staff/volunteer expectations*
+-   **Practice Quality Indicators (Staff/Volunteer Expectations)** for the daily practice/frontline service provision which focuses on staff/volunteer expectations
 
 Where do I go for more detailed information about how to implement these Standards?  
 
