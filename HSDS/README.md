@@ -28,8 +28,6 @@ You retain semantic clarity while allowing for local or organizational flexibili
 
 ```json
 
-Copy
-Edit
 {
   "taxonomy": {
     "id": "1",
