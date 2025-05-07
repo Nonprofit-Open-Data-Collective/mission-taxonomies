@@ -4,7 +4,7 @@ The Open Referral Initiative develops data standards and open platforms that mak
 
 The [Human Services Data Specification (HSDS)](https://docs.openreferral.org/en/latest/hsds/overview.html) — also known as the Open Referral format — supports a taxonomy of services, but it does not enforce a single, required taxonomy. Instead, it provides a flexible structure that allows implementers to use or reference any taxonomy they choose, such as:
 
-- [AIRS/211 LA County Taxonomy of Human Services](https://211hsis.org/taxonomy/what-is-taxonomy) – The most widely used controlled vocabulary in the U.S. for classifying human services. However, it's proprietary and requires a license.
+- [AIRS/211 LA County Taxonomy of Human Services](https://211hsis.org/taxonomy/what-is-taxonomy) – The most widely used controlled vocabulary in the U.S. for classifying human services. However, it's proprietary and requires a license. [Example Service Categories](https://211ventura.org/#search)
 - [Open Eligibility Taxonomy](https://go.findhelp.com/hubfs/Partnerships/OpenEligibilityProject.pdf) – An [open-source taxonomy developed by Code for America](https://github.com/auntbertha/openeligibility), designed to be simple and accessible.
 - Custom Local Taxonomies – Organizations can create and use their own classification systems.
 
